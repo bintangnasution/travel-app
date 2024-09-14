@@ -93,3 +93,10 @@ Route::get('/settings', function () {
         "desc" => "add descriptions."
     ]);
 });
+
+Route::get('/form', function () {
+    return view('admin/form',[
+        "title" => "Pengaturan akun",
+        "desc" => "add descriptions."
+    ]);
+});
